@@ -142,7 +142,7 @@ protected:
     lastEntry
   } CallstackEntryType;
 
-  virtual void OnSymInit(LPCSTR szSearchPath, DWORD symOptions, LPCSTR szUserName);
+  virtual void OnSymInit(LPCSTR szSearchPath, DWORD symOptions);
   virtual void OnLoadModule(LPCSTR    img,
                             LPCSTR    mod,
                             DWORD64   baseAddr,
